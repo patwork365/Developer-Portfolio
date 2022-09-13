@@ -1,4 +1,24 @@
 *{
     margin:0;
-    padding:0;
+    padding: 1px;
+}
+.frame {
+    box-sizing: ;
+}
+.class_nav
+    {
+    display: flex;
+     }
+.nav_head {
+    display :flex;
+    align-items: flex-end;
+}
+.nav_name{
+    justify-content: left;
+    font-weight: 10px;
+     padding-right: 900px;
+  }
+.nav_link{
+    align-items: flex-end;
+    justify-content: end;
 }
