@@ -1,24 +1,44 @@
 *{
     margin:0;
     padding: 1px;
+    font-family: "roberto", sans-serif;
+    background-color: #cfe0de;
 }
 .frame {
-    box-sizing: ;
+        text-align: center;
+        border-style:solid;
+}
+a:hover {
+    background-color: white;
+    color: black;
 }
 .class_nav
     {
     display: flex;
      }
-.nav_head {
-    display :flex;
-    align-items: flex-end;
-}
 .nav_name{
     justify-content: left;
     font-weight: 10px;
-     padding-right: 900px;
+    padding-right: 900px;
   }
 .nav_link{
     align-items: flex-end;
     justify-content: end;
+}
+.section_head {
+    display: flex;
+}
+.Class_Mid {
+    display: flex;
+    margin: 80px;
+        .right_side {
+            padding:left;
+            width: 40%;
+            justify-content: right;
+        }
+        .left_side{
+        display: flex;
+        width: 60%;
+        justify-content: center;
+        align-items: center;}
 }
