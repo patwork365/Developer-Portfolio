@@ -1,44 +1,83 @@
 *{
     margin:0;
     padding: 1px;
-    font-family: "roberto", sans-serif;
+    font-family:cursive;
     background-color: #cfe0de;
 }
 .frame {
         text-align: center;
         border-style:solid;
 }
-a:hover {
-    background-color: white;
-    color: black;
-}
 .class_nav
     {
     display: flex;
      }
-.nav_name{
-    justify-content: left;
-    font-weight: 10px;
-    padding-right: 900px;
-  }
-.nav_link{
-    align-items: flex-end;
-    justify-content: end;
-}
-.section_head {
+    .nav_name{
+        justify-content: left;
+        font-weight: 10px;
+        padding-right: 900px;
+    }
+    .nav_link{
+        align-items: flex-end;
+        justify-content: end;
+       }
+    #buttons_small{
+        background-color: lightgrey;
+
+    }
+    a:hover {
+        background-color: white;
+        color: black;
+    }
+/* .section_head {
     display: flex;
-}
+} */
 .Class_Mid {
     display: flex;
     margin: 80px;
-        .right_side {
-            padding:left;
-            width: 40%;
-            justify-content: right;
-        }
-        .left_side{
-        display: flex;
-        width: 60%;
-        justify-content: center;
-        align-items: center;}
+    height:100px;
 }
+    .Right_side {
+        padding:left;
+        width: 40%;
+        align-items: flex-end;
+        border-style: solid;
+      
+    }         
+    .Left_side{
+            display: flex;
+            flex-direction: column;
+            padding-top: 50px;
+            justify-content: space-between;
+            height: 80px;
+                  
+        }
+    .Buttons{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 10px;
+        max-width: fit-content;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .Skill_Mid{
+        padding-top:150px;
+        padding-bottom: 80px;
+    }
+    .Skill{
+       
+        /* display: grid;
+        grid-template-columns: 80px 80px 80px 80px 80px;
+        grid-template-rows: 150px 150px;
+        align-content: center;
+        justify-content: space-around; */
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+         }
+    .skill_name{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+        }
