@@ -5,19 +5,18 @@
     font-family:cursive;
     background-color: #cfe0de;
 }
-/*
 .frame {
         text-align: center;
         border-style:outset
 }
-Navigation */
+/* Navigation */
 
 .class_nav
     {
-     display: flex; 
+    display: flex;
     padding-top: 10px;
     border: solid black 2px;
-    justify-content: space-around; 
+    justify-content: space-around;
      }
     .nav_name{
         justify-content: left;
@@ -26,19 +25,15 @@ Navigation */
         font-size: 20px;        
     }
     .nav_link{
-        display:flex;
         align-items: flex-end;
-        margin-left: 10px;
-        justify-items: ;
+        justify-content: end;
        }
     #buttons_small{
         background-color: lightgrey;
-        margin: 0 30px;
-        padding: 0 15px;
 
     }
     a:hover {
-        background-color: blue;
+        background-color: white;
         color: black; 
     }
 
@@ -76,67 +71,42 @@ Navigation */
     } 
     .Skill_Mid{
         border: solid red 2px;
-        padding: top 80px;
+        padding-top:100px;
         padding-bottom: 80px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        text-align: center;
     }
-        #Tech_detail{
-            padding:10px;
-            font-size: medium;
-        }
-        .Skill{
-            padding:10px;
-            display: flex;
-            justify-content: space-around;
-            align-items:center;
-             }
-        .skill_name{
-            display: flex;
-            justify-content: space-around;
-            align-items:center;
-             }
-        i::first-letter{
-            font: bolder;
-        }
+    #Heading{
+        font-weight: bolder;
+        font-size: 1em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #Tech_detail{
+        font-size: medium;
+    }
 
-
-
- 
-
-
-    h3
-    {text-align: center;
-    font-style: bold;}
-    
+    .Skill{
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+         }
+    .skill_name{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    }
    .Proj-Grid{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr ;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 150px 150px 150px;
     gap:10px;
    }
    .Card{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    display: flex;
+    display: inline;
     margin: 5pm auto;
-    
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: aquamarine;
-    align-items: center;
+    border: solid red 2px;
 
-    }
-  /*      .para{
-            font-size: 10px;
-            color:blue;
-
-        }
-  */ 
+   }
     
         /* display: grid;
         grid-template-columns: 80px 80px 80px 80px 80px;
