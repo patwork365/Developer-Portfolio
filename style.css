@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap");
 *{
     margin:0;
     padding: 1px;
@@ -6,16 +7,22 @@
 }
 .frame {
         text-align: center;
-        border-style:solid;
+        border-style:outset
 }
+/* Navigation */
+
 .class_nav
     {
     display: flex;
+    padding-top: 10px;
+    border: solid black 2px;
      }
     .nav_name{
         justify-content: left;
         font-weight: 10px;
-        padding-right: 900px;
+        font-family: "dancingscript", cursive;
+        font-size: 20px;
+           
     }
     .nav_link{
         align-items: flex-end;
@@ -27,12 +34,13 @@
     }
     a:hover {
         background-color: white;
-        color: black;
+        color: black; 
     }
 /* .section_head {
     display: flex;
 } */
-.Class_Mid {
+
+/* .Class_Mid {
     display: flex;
     margin: 80px;
     height:100px;
@@ -49,29 +57,45 @@
             flex-direction: column;
             padding-top: 50px;
             justify-content: space-between;
-            height: 80px;
-                  
+            height: 80px;                  
+        }
+        */
+
+    .Class_Mid{
+        padding-top: 50px;
+        margin: 0;
+        Display: flex;
+        align-items: row;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 50px;
+    }
+        .Left_side{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            height: 50px;
+                   
+        }
+        .Right_side{
+            width: 100%;
+            height: 50px;
         }
     .Buttons{
-        background-color: #4CAF50; /* Green */
+        background-color: #4CAF50; 
         border: none;
         color: white;
         padding: 15px 10px;
         max-width: fit-content;
         text-align: center;
         margin: 50px auto;
-    }
+    } 
     .Skill_Mid{
         padding-top:150px;
         padding-bottom: 80px;
     }
     .Skill{
-       
-        /* display: grid;
-        grid-template-columns: 80px 80px 80px 80px 80px;
-        grid-template-rows: 150px 150px;
-        align-content: center;
-        justify-content: space-around; */
         display: flex;
         justify-content: space-around;
         align-items:center;
@@ -81,3 +105,9 @@
     justify-content: space-around;
     align-items:center;
         }
+              
+        /* display: grid;
+        grid-template-columns: 80px 80px 80px 80px 80px;
+        grid-template-rows: 150px 150px;
+        align-content: center;
+        justify-content: space-around; */
