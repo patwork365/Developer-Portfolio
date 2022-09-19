@@ -1,3 +1,165 @@
+//HTML//
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio </title>
+    <link rel="stylesheet" href="Newstyle.css">
+    <script src="https://kit.fontawesome.com/e5ae6fe99d.js" crossorigin="anonymous"></script>
+</Head>
+<body>
+     <Header class="nav">
+            <div class="nav__name">Prapti Rohatgi</div>
+            <div class="nav__container">
+                <div class="nav__container__link">
+                    <a class="nav__container__link__one" href="#">Home</a>
+                    <a class="nav__container__link__two"href="#">About  </a>
+                    <a class="nav__container__link__three"href="#">Project</a>
+               </div>
+            <div class="nav__buttons">Get in Touch</div>
+            </div>
+    </Header>
+    <Main>
+        <Section class="intro">
+            <div class="intro__leftside">
+                <p class="intro__leftside__name">Hey! I am Prapti Rohatgi</p>
+                <p class="mid_para">A Junior Developer based in US, I am learning how to code and did some small projects</p>
+                <p class="mid_para">Below I have links to my projects</p>
+                <!-- <button>Take a look at my work</button>  -->
+                <span class="left_buttons">Take a look at my work</span>
+            </div>
+            <!-- /*<div class="right_side">*/ -->
+            <img class="right_side"src="./image/PPT.jpg" alt ="Prapti">
+        </Section>
+
+        <!-- Section 3- About skill      -->
+        <Section class="skill_mid">
+            <p class="skill_mid__name"> Technical Skill</p>
+            <p class="skill_mid__Tech-detail">I have been learning for a week now and below are my skill set</p>
+              </div>
+            <div class="skill_mid__skill">
+                <i class="fa-brands fa-html5">"</i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-square-js"></i>
+                <i class="fa-brands fa-sass"></i>
+                <i class="fa-brands fa-github"></i>                
+            </div>
+            <div class="skill_mid__tabs-skill_name">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>SaSS</p>
+                <p>GitHub</p>
+            </div>
+        </Section>
+
+        <p class="proj__sec">My Projects </p>
+        <Section Class="proj-grid"> 
+            <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">REACT</p>
+                <p class="card__proj1_heading">Client Project</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p>
+                <!-- <details>This was for working on GRID</Details> -->
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div>
+            <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">JAVA , SPRING BOOTS</p>
+                <p class="card__proj1_heading">Rest API</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p>
+                <!-- <details>This was for working on GRID</Details> -->
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div>
+            <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">REACT</p>
+                <p class="card__proj1_heading">PUNK API</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p>
+                <!-- <details>This was for working on GRID</Details> -->
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div>
+             <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">REACT</p>
+                <p class="card__proj1_heading">PUNK API</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p> 
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div>
+            <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">REACT</p>
+                <p class="card__proj1_heading">PUNK API</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p>
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div> 
+           <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">REACT</p>
+                <p class="card__proj1_heading">PUNK API</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p>
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div> 
+        </Section>
+      
+        <section class="sec_abt">
+            <p class="about__header">About Me </p>
+            <section class="about"> 
+                    <div class="about__left">
+                        <p class="about__left__head">More about me, this para is to write a story on background </p>
+                        <p class="about__left__para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quaerat architecto dolorem rerum, voluptate nemo assumenda veritatis vero beatae mollitia! Totam animi quisquam tenetur amet autem ea consectetur quae commodi.</p>
+                    </div>
+                    <div>
+                        <img class="about__right-pic" src="./image/sun.jfif" alt="">
+                    </div>
+            </section> 
+        </section>
+    
+    </Main>
+    <footer class="foot">
+        <p class="foot__email">PR@email.com</p>
+        <div class="foot__container">
+                <a class="link linkedin">
+                    <i class="fa-brands fa-linkedin"></i> 
+                </a>     
+                <a class="link github" >
+                    <i class="fa-brands fa-github"></i>
+                </a>      
+                <a class="link instra">
+                    <i class="fa-brands fa-instagram"></i>  
+                </a> 
+           </div>
+    </footer>
+    
+</body>
+</html>
+
+
+
+
+
+
+//SASS//
+
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap");
 *{
     margin:0;
@@ -252,12 +414,14 @@
       }     
 //Section 5- About Me //
 
+    .sec_abt{
+        border-style: groove;
+    }
     .about__header{
         margin-top: 50px;
         font-size: 30px;
         font-weight: bold;
         text-align: center;
-        border-top:  groove;
     }
     .about{
            display: flex;
@@ -287,13 +451,11 @@
     
 //Section 6- Footer //
     .foot {
-        border-top:  groove;
         display:flex;
         justify-content: space-between;
-        background-color: lightgray;
         &__email{
             color: $font-hover;
-            font-size: 20px;
+            font-size: 30px;
         }
         .container{
             display: flex;
