@@ -2,7 +2,7 @@
 *{
     margin:0;
     padding: 1px;
-    font-family:cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
     
 }
@@ -17,7 +17,6 @@
     {
     display: flex; 
     padding-top: 10px;
-    // border: solid $font-dark 2px;
     justify-content: space-between; 
     border-style: groove;
     
@@ -25,7 +24,7 @@
         text-align: left;
         font-weight: 10px;
         align-content: flex-start;
-        font-family: "dancingscript", cursive;
+        font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 30px;        
         }
     &__name:hover{
@@ -111,10 +110,8 @@
             }
         }
         &__right_side{
-            // width: 30%;
             align-items: right;
             justify-content: flex-end;
-            /*height: 150px;*/
             border-radius: 20px;
         }
     }  
@@ -176,8 +173,6 @@
              }
     }
            
-
-
 //Section 4- About Project Grid //   
     .proj__sec{
         font-size: 30px;
@@ -188,7 +183,6 @@
    .proj-grid{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr ;
-    // grid-template-rows: auto auto auto auto auto auto;
     gap:20px;
      }
        .card{
@@ -293,7 +287,7 @@
         background-color: lightgray;
         &__email{
             color: $font-hover;
-            font-size: 20px;
+            font-size: 30px;
         }
         .container{
             display: flex;
