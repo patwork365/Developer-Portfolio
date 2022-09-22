@@ -1,10 +1,169 @@
-// @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+Portfolio - HTML
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e5ae6fe99d.js" crossorigin="anonymous"></script>
+</Head>
+<body>
+     <Header class="nav">
+            <div class="nav__name">Prapti Rohatgi</div>
+            <div class="nav__container">
+                <div class="nav__container__link">
+                    <a class="nav__container__link__one" href="#">Home</a>
+                    <a class="nav__container__link__two"href="#">About  </a>
+                    <a class="nav__container__link__three"href="#">Project</a>
+               </div>
+            <div class="nav__buttons">Get in Touch</div>
+            </div>
+    </Header>
+    <Main>
+        <Section class="intro">
+            <div class="intro__leftside">
+                <p class="intro__leftside__name">Hey! I am Prapti Rohatgi</p>
+                <p class="mid_para">A Junior Developer based in US, I am learning how to code and did some small projects</p>
+                <p class="mid_para">Below I have links to my projects</p>
+                <!-- <button>Take a look at my work</button>  -->
+                <span class="left_buttons">Take a look at my work</span>
+            </div>
+            <!-- /*<div class="right_side">*/ -->
+            <img class="right_side"src="./image/PPT.jpg" alt ="Prapti">
+        </Section>
+
+        <!-- Section 3- About skill      -->
+        <Section class="skill_mid">
+            <p class="skill_mid__name"> Technical Skill</p>
+            <p class="skill_mid__Tech-detail">I have been learning for a week now and below are my skill set</p>
+              </div>
+            <div class="skill_mid__skill">
+                <i class="fa-brands fa-html5">"</i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-square-js"></i>
+                <i class="fa-brands fa-sass"></i>
+                <i class="fa-brands fa-github"></i>                
+            </div>
+            <div class="skill_mid__tabs-skill_name">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>SaSS</p>
+                <p>GitHub</p>
+            </div>
+        </Section>
+
+        <!-- Section 4- proj boxes      -->
+        <p class="proj__sec">My Projects </p>
+        <Section Class="proj-grid"> 
+            <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">REACT</p>
+                <p class="card__proj1_heading">Client Project</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p>
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div>
+            <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">JAVA , SPRING BOOTS</p>
+                <p class="card__proj1_heading">Rest API</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p>
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div>
+            <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">REACT</p>
+                <p class="card__proj1_heading">PUNK API</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p>
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div>
+             <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">REACT</p>
+                <p class="card__proj1_heading">PUNK API</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p> 
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div>
+            <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">REACT</p>
+                <p class="card__proj1_heading">PUNK API</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p>
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div> 
+           <div class="card"> 
+                <p class="card__box" ></p>
+                <p class="card__proj1_name">REACT</p>
+                <p class="card__proj1_heading">PUNK API</p>
+                <p class="card__proj1_detail">This is a lot of text with details</p>
+                <span class="icons">
+                    <i class="fa-solid fa-code">Code</i> 
+                    <i class="fa-solid fa-magnifying-glass">Preview</i>  
+                </span>
+            </div> 
+        </Section>
+      
+        <!-- Section 5- About section     -->
+        <section class="sec_abt">
+            <p class="about__header">About Me </p>
+            <section class="about"> 
+                    <div class="about__left">
+                        <p class="about__left__head">More about me, this para is to write a story on background </p>
+                        <p class="about__left__para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quaerat architecto dolorem rerum, voluptate nemo assumenda veritatis vero beatae mollitia! Totam animi quisquam tenetur amet autem ea consectetur quae commodi.</p>
+                    </div>
+                    <div>
+                        <img class="about__right-pic" src="./image/sun.jfif" alt="">
+                    </div>
+            </section> 
+        </section>
+    
+    </Main>
+
+    <!-- Section 6- Footer   -->
+    <footer class="foot">
+        <p class="foot__email">PR@email.com</p>
+        <div class="foot__container">
+                <a class="link linkedin">
+                    <i class="fa-brands fa-linkedin"></i> 
+                </a>     
+                <a class="link github" >
+                    <i class="fa-brands fa-github"></i>
+                </a>      
+                <a class="link instra">
+                    <i class="fa-brands fa-instagram"></i>  
+                </a> 
+           </div>
+    </footer>
+    
+</body>
+</html>
+
+Portfolio -SCSS
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 *{
     margin:0;
     padding: 1px;
-    // font-family:cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
+    background:#E3F6F5;
     
 }
     $font-dark:black;
@@ -18,7 +177,6 @@
     {
     display: flex; 
     padding-top: 10px;
-    // border: solid $font-dark 2px;
     justify-content: space-between; 
     border-style: groove;
     
@@ -26,7 +184,7 @@
         text-align: left;
         font-weight: 10px;
         align-content: flex-start;
-        // font-family: "dancingscript", cursive;
+        font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 30px;        
         }
     &__name:hover{
@@ -68,9 +226,7 @@
             }    
         &__buttons:hover{
             background-color: lightgray;
-            // margin: 0 30px;
-            // padding: 10px 15px;
-            font:$font-light;
+            color:$font-hover;
             border-radius: 15px;
         }    
     }
@@ -112,10 +268,8 @@
             }
         }
         &__right_side{
-            // width: 30%;
             align-items: right;
             justify-content: flex-end;
-            /*height: 150px;*/
             border-radius: 20px;
         }
     }  
@@ -134,9 +288,7 @@
         }   
         .left_buttons:hover{
             background-color: lightgray;
-            margin: 0 30px;
-            padding: 10px 15px;
-            color:$font-light;
+            color:$font-hover;
             border-radius: 15px;
 
             }    
@@ -177,8 +329,6 @@
              }
     }
            
-
-
 //Section 4- About Project Grid //   
     .proj__sec{
         font-size: 30px;
@@ -189,7 +339,6 @@
    .proj-grid{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr ;
-    // grid-template-rows: auto auto auto auto auto auto;
     gap:20px;
      }
        .card{
@@ -203,11 +352,14 @@
         justify-content: space-between;
         align-items: center;
         
+        
             &__box{
                 width:40%;
                 height:200px;
                 background-color: #E3F6F5;
                 outline-style: inset;
+                border-radius: 10px;
+                box-shadow: 2px;
                 }
                 &__box:hover{
                     outline-color: aqua;
@@ -215,12 +367,13 @@
             &__proj1_name{
                 margin: 10px;
                 font-size: 16px;
-                color:  #BAE8E8;
+                color: #8ef3f3;
                 font-weight: 600px;
                 align-content: flex-start;
             }
             &__proj1_name:hover{
             color: $font-hover;
+             
             }
             
             &__proj1_heading{
@@ -235,7 +388,7 @@
             &__proj1_detail{
                 margin: 10px;
                 font-size: 18px;
-                color: #BAE8E8;
+                color: #8ef3f3;
                 font-weight: 400px;
             }       
             &__proj1_detail:hover{
@@ -291,10 +444,10 @@
         border-top:  groove;
         display:flex;
         justify-content: space-between;
-        background-color: lightgray;
+        // background-color: lightgray;
         &__email{
             color: $font-hover;
-            font-size: 20px;
+            font-size: 30px;
         }
         .container{
             display: flex;
@@ -302,6 +455,7 @@
             text-decoration: none;
             justify-content: center;
             align-items: center;
+            
         }
         .link{
             height:200px;
@@ -353,3 +507,4 @@
     }   
         
        
+

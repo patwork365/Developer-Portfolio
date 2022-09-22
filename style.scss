@@ -1,9 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 *{
     margin:0;
     padding: 1px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
+    background:#E3F6F5;
     
 }
     $font-dark:black;
@@ -66,9 +68,7 @@
             }    
         &__buttons:hover{
             background-color: lightgray;
-            margin: 0 30px;
-            padding: 10px 15px;
-            font:$font-light;
+            color:$font-hover;
             border-radius: 15px;
         }    
     }
@@ -130,9 +130,7 @@
         }   
         .left_buttons:hover{
             background-color: lightgray;
-            margin: 0 30px;
-            padding: 10px 15px;
-            color:$font-light;
+            color:$font-hover;
             border-radius: 15px;
 
             }    
@@ -196,11 +194,14 @@
         justify-content: space-between;
         align-items: center;
         
+        
             &__box{
                 width:40%;
                 height:200px;
                 background-color: #E3F6F5;
                 outline-style: inset;
+                border-radius: 10px;
+                box-shadow: 2px;
                 }
                 &__box:hover{
                     outline-color: aqua;
@@ -208,12 +209,13 @@
             &__proj1_name{
                 margin: 10px;
                 font-size: 16px;
-                color:  #BAE8E8;
+                color: #8ef3f3;
                 font-weight: 600px;
                 align-content: flex-start;
             }
             &__proj1_name:hover{
             color: $font-hover;
+             
             }
             
             &__proj1_heading{
@@ -228,7 +230,7 @@
             &__proj1_detail{
                 margin: 10px;
                 font-size: 18px;
-                color: #BAE8E8;
+                color: #8ef3f3;
                 font-weight: 400px;
             }       
             &__proj1_detail:hover{
@@ -284,7 +286,7 @@
         border-top:  groove;
         display:flex;
         justify-content: space-between;
-        background-color: lightgray;
+        // background-color: lightgray;
         &__email{
             color: $font-hover;
             font-size: 30px;
@@ -295,6 +297,7 @@
             text-decoration: none;
             justify-content: center;
             align-items: center;
+            background-color: lightgray;
         }
         .link{
             height:200px;

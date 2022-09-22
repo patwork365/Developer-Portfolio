@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 * {
   margin: 0;
   padding: 1px;
-  font-family: cursive;
   box-sizing: border-box;
 }
 
@@ -16,7 +15,6 @@
   text-align: left;
   font-weight: 10px;
   align-content: flex-start;
-  font-family: "dancingscript", cursive;
   font-size: 30px;
 }
 .nav__name:hover {
@@ -51,8 +49,6 @@
 }
 .nav__buttons:hover {
   background-color: lightgray;
-  margin: 0 30px;
-  padding: 10px 15px;
   font: white;
   border-radius: 15px;
 }

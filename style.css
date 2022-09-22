@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
 * {
   margin: 0;
   padding: 1px;
-  font-family: cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
   box-sizing: border-box;
+  background: #E3F6F5;
 }
 
 .nav {
@@ -16,7 +17,7 @@
   text-align: left;
   font-weight: 10px;
   align-content: flex-start;
-  font-family: "dancingscript", cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
 }
 .nav__name:hover {
@@ -51,9 +52,7 @@
 }
 .nav__buttons:hover {
   background-color: lightgray;
-  margin: 0 30px;
-  padding: 10px 15px;
-  font: white;
+  color: blue;
   border-radius: 15px;
 }
 
@@ -93,7 +92,6 @@
 .intro__right_side {
   align-items: right;
   justify-content: flex-end;
-  /*height: 150px;*/
   border-radius: 20px;
 }
 
@@ -113,9 +111,7 @@
 
 .left_buttons:hover {
   background-color: lightgray;
-  margin: 0 30px;
-  padding: 10px 15px;
-  color: white;
+  color: blue;
   border-radius: 15px;
 }
 
@@ -177,6 +173,8 @@
   height: 200px;
   background-color: #E3F6F5;
   outline-style: inset;
+  border-radius: 10px;
+  box-shadow: 2px;
 }
 .card__box:hover {
   outline-color: aqua;
@@ -184,7 +182,7 @@
 .card__proj1_name {
   margin: 10px;
   font-size: 16px;
-  color: #BAE8E8;
+  color: #8ef3f3;
   font-weight: 600px;
   align-content: flex-start;
 }
@@ -203,7 +201,7 @@
 .card__proj1_detail {
   margin: 10px;
   font-size: 18px;
-  color: #BAE8E8;
+  color: #8ef3f3;
   font-weight: 400px;
 }
 .card__proj1_detail:hover {
@@ -252,11 +250,10 @@
   border-top: groove;
   display: flex;
   justify-content: space-between;
-  background-color: lightgray;
 }
 .foot__email {
   color: blue;
-  font-size: 20px;
+  font-size: 30px;
 }
 .foot .container {
   display: flex;
@@ -264,6 +261,7 @@
   text-decoration: none;
   justify-content: center;
   align-items: center;
+  background-color: lightgray;
 }
 .foot .link {
   height: 200px;
