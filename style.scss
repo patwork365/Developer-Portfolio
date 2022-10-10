@@ -152,7 +152,10 @@
         font-weight: bold;
         text-align: center;
         }
-    
+        &__name:hover{
+            color: red;
+            font-weight: bold;
+        }
         &__Tech-detail{
             padding:10px;
             font-size: medium;
@@ -178,6 +181,10 @@
         text-align: center;
         
     }
+    .proj__sec:hover{
+        color: red;
+        font-weight: bold;
+    }
    .proj-grid{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr ;
@@ -194,7 +201,20 @@
         justify-content: space-between;
         align-items: center;
         
-        
+            &__box1{
+                
+                    width:40%;
+                    height:200px;
+                    outline-style: inset;
+                    border-radius: 10px;
+                    box-shadow: 2px;
+                    // background-color: ;
+                    background-image: url('https://lh3.googleusercontent.com/proxy/F4MUbrj0ggGkeFW2SbryVO6d7WL6ShQLyRVgZXlHhG0ZMhMfmHyvDWtqDGPHMhJonGOXLO4aw4B4uIrlHQd6UMEXFdbE17mnLc6IHL4X-9rerA=s0-d');
+                    background-size: cover;
+                    background-position: top;
+                    background-repeat: no-repeat;
+                    }   
+            
             &__box{
                 width:40%;
                 height:200px;
@@ -205,16 +225,17 @@
                 }
                 &__box:hover{
                     outline-color: aqua;
+               
             }
             &__proj1_name{
                 margin: 10px;
                 font-size: 16px;
-                color: #8ef3f3;
+                color: $font-hover;
                 font-weight: 600px;
                 align-content: flex-start;
             }
             &__proj1_name:hover{
-            color: $font-hover;
+            color:#8ef3f3;
              
             }
             
@@ -223,6 +244,7 @@
                 font-size: 38px;
                 color:  $font-dark;
                 font-weight: 600px;
+                text-decoration: dotted;
             }       
             &__proj1_heading:hover{
                 color: $font-hover;
@@ -246,6 +268,8 @@
                 color: $font-hover;
             }    
       }     
+
+
 //Section 5- About Me //
 
     .about__header{

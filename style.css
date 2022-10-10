@@ -129,6 +129,10 @@
   font-weight: bold;
   text-align: center;
 }
+.skill_mid__name:hover {
+  color: red;
+  font-weight: bold;
+}
 .skill_mid__Tech-detail {
   padding: 10px;
   font-size: medium;
@@ -151,6 +155,11 @@
   text-align: center;
 }
 
+.proj__sec:hover {
+  color: red;
+  font-weight: bold;
+}
+
 .proj-grid {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
@@ -168,6 +177,17 @@
   justify-content: space-between;
   align-items: center;
 }
+.card__box1 {
+  width: 40%;
+  height: 200px;
+  outline-style: inset;
+  border-radius: 10px;
+  box-shadow: 2px;
+  background-image: url("https://lh3.googleusercontent.com/proxy/F4MUbrj0ggGkeFW2SbryVO6d7WL6ShQLyRVgZXlHhG0ZMhMfmHyvDWtqDGPHMhJonGOXLO4aw4B4uIrlHQd6UMEXFdbE17mnLc6IHL4X-9rerA=s0-d");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
 .card__box {
   width: 40%;
   height: 200px;
@@ -182,18 +202,20 @@
 .card__proj1_name {
   margin: 10px;
   font-size: 16px;
-  color: #8ef3f3;
+  color: blue;
   font-weight: 600px;
   align-content: flex-start;
 }
 .card__proj1_name:hover {
-  color: blue;
+  color: #8ef3f3;
 }
 .card__proj1_heading {
   margin: 10px;
   font-size: 38px;
   color: black;
   font-weight: 600px;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
 }
 .card__proj1_heading:hover {
   color: blue;
